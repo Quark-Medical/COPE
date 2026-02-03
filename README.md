@@ -41,7 +41,12 @@ modelscope download --model Qwen/Qwen3-1.7B  --local_dir ../model/Qwen/Qwen3-1.7
 4. Training:
 ```shell
 cd  COPE/codes
-bash recipe/cope/run.sh
+bash recipe/cope/run.sh 2>&1 | tee log
+```
+
+5. Evaluation:
+```shell
+python3 recipe/cope/stats.py ../outputs/rollout_data
 ```
 
 
