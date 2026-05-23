@@ -1,6 +1,6 @@
-# Towards Personalized LLMs via Continual Optimization with User Embeddings and Self-Evaluation
+# COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation
 
-This repository contains the official implementation code and related datasets for the paper: "Towards Personalized LLMs via Continual Optimization with User Embeddings and Self-Evaluation".
+This repository contains the official implementation code and related datasets for the paper: "COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation".
 
 <img src="./figs/COPE.jpg" width="1000">
 
